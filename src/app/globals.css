@@ -123,3 +123,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+:root {
+  /* 固定ヘッダーの高さのデフォルト値を定義 */
+  --header-height: 5rem; /* 例: 80px */
+}

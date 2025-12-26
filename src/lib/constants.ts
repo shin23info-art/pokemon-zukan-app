@@ -1,0 +1,43 @@
+// タイプごとの背景色クラス
+export const typeColorMap: { [key: string]: string } = {
+  normal: 'bg-gray-400',
+  fire: 'bg-red-500',
+  water: 'bg-blue-500',
+  grass: 'bg-green-500',
+  electric: 'bg-yellow-400',
+  ice: 'bg-cyan-300',
+  fighting: 'bg-orange-700',
+  poison: 'bg-purple-600',
+  ground: 'bg-amber-600',
+  flying: 'bg-indigo-400',
+  psychic: 'bg-pink-500',
+  bug: 'bg-lime-500',
+  rock: 'bg-stone-500',
+  ghost: 'bg-violet-800',
+  dragon: 'bg-blue-800',
+  steel: 'bg-gray-600',
+  fairy: 'bg-pink-300',
+  default: 'bg-gray-400',
+};
+
+// タイプごとのボーダークラス (PokemonCardで使用)
+export const typeBorderMap: { [key: string]: string } = {
+  normal: 'border-gray-400',
+  fire: 'border-red-500',
+  water: 'border-blue-500',
+  grass: 'border-green-500',
+  electric: 'border-yellow-400',
+  ice: 'border-cyan-300',
+  fighting: 'border-orange-700',
+  poison: 'border-purple-600',
+  ground: 'border-amber-600',
+  flying: 'border-indigo-400',
+  psychic: 'border-pink-500',
+  bug: 'border-lime-500',
+  rock: 'border-stone-500',
+  ghost: 'border-violet-800',
+  dragon: 'border-blue-800',
+  steel: 'border-gray-600',
+  fairy: 'border-pink-300',
+  default: 'border-gray-400',
+};

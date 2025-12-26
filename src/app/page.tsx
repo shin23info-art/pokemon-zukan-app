@@ -1,5 +1,5 @@
-import PokemonListWrapper from './pokemon-list-wrapper';
+import HomeClient from './home-client'; 
 
-export default function Home() {
-    return <PokemonListWrapper />;
+export default function PokemonListWrapper() {
+    return <HomeClient />;
 }

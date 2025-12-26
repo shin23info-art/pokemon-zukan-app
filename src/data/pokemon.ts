@@ -1,5 +1,17 @@
 import axios from 'axios';
 
+// ポケモンの単一のタイプ情報 (例: "grass")
+export interface Type {
+  name: string;
+  url: string;
+}
+
+// ポケモンが持つタイプのエントリー (例: { slot: 1, type: { name: "grass" } })
+export interface PokemonTypeEntry {
+  slot: number;
+  type: Type;
+}
+
 /**
  * ポケモンAPIから返される個別のポケモンオブジェクトの型 (必要なプロパティのみ抜粋)
  */
@@ -12,6 +24,7 @@ export interface Pokemon {
   sprites: {
     front_default: string;
   };
+  types: PokemonTypeEntry[];
   // 他にも多くのプロパティがありますが、今回は省略
 }
 
